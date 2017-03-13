@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../img/isola1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 98%;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
