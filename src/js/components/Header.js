@@ -6,9 +6,14 @@ export default class Header extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>This is my header</h1>
-      </div>
+      <header class="main-header">
+        <div>
+            <i class="material-icons">menu</i>
+        </div>
+        <div>
+            <button>Login</button>
+        </div>
+      </header>
     );
   }
 }
