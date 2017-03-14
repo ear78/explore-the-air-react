@@ -10,9 +10,9 @@ export default class Pictures extends React.Component {
                 <h5>Picture Perfection</h5>
                 <p>
                     <img src="../img/paul-morris-mtn.jpg" alt="mountains"/>
-                    <img src="../img/paul-morris-mtn.jpg" alt="mountains"/>
-                    <img src="../img/paul-morris-mtn.jpg" alt="mountains"/>
-                    <img src="../img/paul-morris-mtn.jpg" alt="mountains"/>
+                    <img src="../img/thomas-kelley-ocean.jpg" alt="ocean landscape"/>
+                    <img src="../img/tim-trad-truck.jpg" alt="mountains"/>
+                    <img src="../img/forrest-cavale-lights.jpg" alt="mountains"/>
                 </p>
             </div>
         )

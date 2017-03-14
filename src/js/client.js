@@ -7,6 +7,7 @@ import Info from "./pages/Info";
 import Home from "./pages/Home";
 import Packages from "./pages/Packages";
 import Pictures from "./pages/Pictures";
+import Login from "./pages/Login";
 
 const app = document.getElementById('app');
 ReactDOM.render(
@@ -16,6 +17,7 @@ ReactDOM.render(
             <Route path="Info" component={Info}></Route>
             <Route path="Packages" component={Packages}></Route>
             <Route path="Pictures" component={Pictures}></Route>
+            <Route path="Login" component={Login}></Route>
         </Route>
     </Router>
 , app);

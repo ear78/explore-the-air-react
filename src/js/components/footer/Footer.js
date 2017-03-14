@@ -7,9 +7,9 @@ export default class Footer extends React.Component {
       <footer>
           <div class="footer-line"></div>
           <div class="social-icons">
-              <a href=""><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
               <a href=""><i class="fa fa-tree" aria-hidden="true"></i></a>
-              <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+              <a href="https://www.plus.google.com" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
               <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
           </div>
           <p>Designed & Built By: Elliot Richardson</p>
