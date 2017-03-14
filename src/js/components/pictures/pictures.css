@@ -29,3 +29,9 @@
     color: black;
     font-size: 4em;
 }
+
+.pictures img {
+    width: 45%;
+    margin: 3%;
+    margin-left: 6px;
+}

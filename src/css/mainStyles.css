@@ -8,7 +8,7 @@ font-family: 'Muli', sans-serif;
     box-sizing: border-box;
 }
 
-body {
+.main-container {
     background: url('../img/isola1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,20 +20,20 @@ body {
     font-family: 'Muli', sans-serif;
 }
 
-h1 {
+.main-container h1 {
     font-size: 2.5em;
     font-family: 'Lato', sans-serif;
     font-weight: 100;
     text-transform: uppercase;
 }
 
-h5 {
+.main-container h5 {
     font-size: 1em;
     font-family: "Lato", sans-serif;
     font-weight: 100;
     margin-bottom: 30px;
 }
 
-a {
+.main-container a {
     color: black;
 }
