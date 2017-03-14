@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router";
 
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Header from "../components/header/Header";
 
 export default class Layout extends React.Component {
     navigate(){
