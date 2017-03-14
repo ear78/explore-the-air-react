@@ -1,0 +1,21 @@
+.info {
+    text-align: center;
+    height: 75vh;
+}
+
+.info p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    hyphens: auto;
+    background: rgba(0,0,0,.325);
+    color: #fff;
+    min-height: 230px;
+    overflow: scroll;
+    padding: 10px;
+}
+
+.info p:first-letter {
+    color: black;
+    font-size: 4em;
+}

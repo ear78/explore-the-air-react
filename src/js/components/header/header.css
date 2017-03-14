@@ -1,5 +1,18 @@
 .main-header {
     display: flex;
     justify-content: space-between;
-    background: yellow;
+    align-items: center;
+    padding: 0 10px;
+    height: 10vh;
+    width: 100vw;
+}
+
+.main-header button {
+    background: rgba(0,0,0,.125);
+    height: 32px;
+    width: 90px;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.2);
+    text-transform: uppercase;
 }
