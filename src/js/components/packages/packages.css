@@ -1,9 +1,9 @@
-.info {
+.packages {
     text-align: center;
     height: 75vh;
 }
 
-.info h1 {
+.packages h1 {
     font-size: 2.5em;
     font-family: "Lato", sans-serif;
     font-weight: 100;
@@ -13,7 +13,7 @@
     transition: all .2s ease;
 }
 
-.info p {
+.packages p {
     width: 90%;
     margin: 0 auto;
     text-align: justify;
@@ -25,7 +25,7 @@
     padding: 10px;
 }
 
-.info p:first-letter {
+.packages p:first-letter {
     color: black;
     font-size: 4em;
 }
