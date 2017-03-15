@@ -8,14 +8,14 @@
     font-family: "Lato", sans-serif;
     font-weight: 100;
     text-transform: uppercase;
-    margin-top: 13vh;
+    margin-top: 1vh;
     margin-bottom: 5px;
     transition: all .2s ease;
 }
 
 .packages p {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 9vh;
     text-align: justify;
     hyphens: auto;
     background: rgba(0,0,0,.325);

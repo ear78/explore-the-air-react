@@ -1,21 +1,27 @@
 .login-container {
-    height: 70vh;
+    height: 75vh;
     width: 90%;
-    background: rgba(0,0,0,.325);
-    margin: 0 auto 5vh;
+    margin: 0 auto;
     text-align: center;
-    padding-top: 30px;
 }
 
 .login-background {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgba(0,0,0,.325);
+    min-height: 300px;
+    padding: 40px 0px;
 }
 
-.login-background h1 {
-    margin-bottom: 40px;
-    color: white;
+.login-container h1 {
+    font-size: 2.5em;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 1vh;
+    margin-bottom: 5px;
+    transition: all .2s ease;
 }
 
 .login-background input {
@@ -53,6 +59,19 @@
     text-transform: uppercase;
     margin-top: 20px;
     margin-bottom: 12px;
+}
+
+.login-background .signup-button button {
+    height: 45px;
+    width: 150px;
+    margin-top: 1vh;
+    text-transform: uppercase;
+    font-weight: 100;
+    background: black;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.325);
 }
 
 .login-background p {

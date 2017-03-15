@@ -8,6 +8,8 @@ font-family: 'Muli', sans-serif;
     box-sizing: border-box;
 }
 
+
+
 .main-container {
     background: url('../img/isola1.jpg');
     background-size: cover;
@@ -37,4 +39,8 @@ font-family: 'Muli', sans-serif;
 
 .main-container a {
     color: black;
+}
+
+.main-container a:hover {
+    cursor: pointer;
 }

@@ -8,7 +8,7 @@
     font-family: "Lato", sans-serif;
     font-weight: 100;
     text-transform: uppercase;
-    margin-top: 13vh;
+    margin-top: 1vh;
     margin-bottom: 5px;
     transition: all .2s ease;
 }
@@ -23,6 +23,7 @@
     min-height: 230px;
     overflow: scroll;
     padding: 10px;
+    margin-bottom: 9vh;
 }
 
 .info p:first-letter {
