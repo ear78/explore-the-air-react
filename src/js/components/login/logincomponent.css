@@ -31,10 +31,6 @@
     border-bottom: 1px solid black;
 }
 
-.login-background input:focus {
-    outline-color: lightblue;
-}
-
 .login-background input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: white;
 }
@@ -50,7 +46,8 @@
 
 .login-background button {
     height: 45px;
-    width: 130px;
+    width: 150px;
+    border-radius: 2px;
     background: white;
     border: none;
     text-transform: uppercase;
@@ -62,4 +59,5 @@
     font-size: .8em;
     color: lightgray;
     font-weight: 100;
+    margin: 0px 0 15px;
 }

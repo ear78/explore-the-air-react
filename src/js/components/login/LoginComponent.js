@@ -2,6 +2,8 @@ import React from "react";
 
 import "./logincomponent.css";
 
+import SignUpButtonComponent from "./signupbuttoncomponent/SignUpButtonComponent.js";
+
 export default class LoginComponent extends React.Component {
     render() {
         return (
@@ -10,8 +12,9 @@ export default class LoginComponent extends React.Component {
                     <h1>Login To Your Adventure!</h1>
                     <input type="text" placeholder="Name"/>
                     <input type="email" placeholder="Email"/>
+                    <p>Have An Account? Sign Up Below!</p>
                     <button type="submit">Login</button>
-                    <p>Sign Up</p>
+                    <SignUpButtonComponent />
                 </div>
             </div>
         );
