@@ -9,7 +9,7 @@ export default class HomeComponent extends React.Component {
         return (
             <section class="home">
                 <h1>Explore The Air</h1>
-                <h5>One Airport At A Time</h5>
+                <h5>One Adventure At A Time</h5>
                 <img src="./img/etalogo.svg" alt="eta logo"/>
                 <Link to="Login"><button>Sign Up</button></Link>
             </section>
