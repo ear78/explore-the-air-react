@@ -21,6 +21,7 @@
     background: rgba(0,0,0,.325);
     color: #fff;
     min-height: 230px;
+    max-height: 347px;
     overflow: scroll;
     padding: 10px;
 }
