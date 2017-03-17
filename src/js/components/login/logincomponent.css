@@ -14,6 +14,12 @@
     padding: 40px 0px;
 }
 
+.login-background form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .login-container h1 {
     font-size: 2.5em;
     font-family: "Lato", sans-serif;
