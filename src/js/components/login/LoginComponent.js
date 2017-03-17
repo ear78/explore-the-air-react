@@ -19,6 +19,7 @@ export default class LoginComponent extends React.Component {
             [e.target.name]: e.target.value
         })
     }
+    
     render() {
         return (
             <div class="login-container">
